@@ -1,0 +1,141 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("JxcExploitss V1.0 Marvellous Playground", "BloodTheme")
+ 
+--MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+ 
+MainSection:NewButton("Thanos", "Thanos for free", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/85KvZz1E"))()
+end)
+ 
+MainSection:NewButton("Wanda", "Wanda for free", function()  
+    loadstring(game:HttpGet("https://pastebin.com/raw/61x9QmLt"))()
+end)
+ 
+MainSection:NewButton("GigaChad", "GigaChad for free", function()  
+    loadstring(game:HttpGet("https://pastebin.com/raw/ta8VF3VF"))()
+end)
+ 
+MainSection:NewButton("IShowSpeed", "IShowSpeed for free", function()  
+    loadstring(game:HttpGet("https://pastebin.com/raw/dLbYuZkD"))()
+end)
+ 
+MainSection:NewButton("Saitama", "Saitama for free", function()  
+    loadstring(game:HttpGet("https://pastebin.com/raw/Fq4YZa8J"))()
+end)
+ 
+MainSection:NewButton("GigaWoman", "Chadette for free", function()  
+    loadstring(game:HttpGet("https://pastebin.com/raw/haiYccdv"))()
+end)
+ 
+MainSection:NewButton("All Might", "All Might for free", function()  
+    loadstring(game:HttpGet("https://pastebin.com/raw/ENKPgN7v"))()
+end)
+ 
+local OP = Window:NewTab("OP")
+local OPSection = OP:NewSection("OP")
+ 
+OPSection:NewButton("Flash No Cooldown (PATCHED)", "Keybind is H", function()  
+    loadstring(game:HttpGet("https://pastebin.com/raw/Huwgfg7F"))()
+end)
+ 
+ 
+OPSection:NewButton("Thanos No Cooldown Time Freeze", "Keybind is Z", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/L6HBvLJP"))()
+end)
+ 
+OPSection:NewButton("Thanos No Cooldown Snap", "Keybind is U", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UZyFbdhG"))()
+end)
+ 
+OPSection:NewButton("GigaChad No Cooldown (PATCHED)", "Keybind is N", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/t7axJNPY"))()
+end)
+ 
+OPSection:NewButton("Infinte Yield", "Admin", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+ 
+OPSection:NewButton("No cooldown parry", "infinte parry, keybind is K", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/WQ1r2T1S'))()
+end)
+ 
+local Skins = Window:NewTab("Skins")
+local SkinsSection = Skins:NewSection("Skins")
+ 
+SkinsSection:NewButton("Thanos Skin 2", "Thanos version 2", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/NzSrK26N'))()
+end)
+ 
+SkinsSection:NewButton("Wanda Skin 2", "Wanda version 2", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/wAXNjvEz'))()
+end)
+ 
+SkinsSection:NewButton("Wanda Skin 3", "Wanda version 3", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/9uDxp6CY'))()
+end)
+ 
+SkinsSection:NewButton("Wanda Skin 4", "Wanda version 4", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/6wBkDa00'))()
+end)
+ 
+SkinsSection:NewButton("IShowSpeed Skin 2", "IShowSpeed version 2", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/uq47AtkV'))()
+end)
+ 
+local Secret = Window:NewTab("Secret")
+local SecretSection = Secret:NewSection("Secret")
+ 
+SecretSection:NewButton("Secret Em Character", "Glitched Skin", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/2iRZy2g8'))()
+end)
+ 
+SecretSection:NewButton("Secret Vecna Character", "UnReleased Skin", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/BqM2QWeE'))()
+end)
+ 
+local Info = Window:NewTab("Info")
+local InfoSection = Info:NewSection("Info")
+ 
+InfoSection:NewButton("Version 1,0", "Last update was on December 27 2022", function()
+end)
+ 
+InfoSection:NewButton("Owner is JxcExploitss", "Who is JxcExploitss? JxcExploitss roblox user Is JxcExploiEts", function()
+end)
+ 
+InfoSection:NewButton("Status (Online)", "WORKING", function()
+end)
+
+InfoSection:NewButton("More Soon :)", "", function()
+end)
+
+OPSection:NewButton("IshowSpeed Shake No CD (Laggy)", ", keybind is n", function()
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "n" then
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("ReplicatedStorage").Characters.Speed.Remotes.Shake:FireServer(unpack(args))
+
+
+ end
+end)
+end)
+
+OPSection:NewButton("Thanos Reality Shock No CoolDown", ", keybind is m", function()
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "m" then
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("ReplicatedStorage").Characters.Thanos.Remotes.RealitySwap:FireServer(unpack(args))
+
+
+ end
+end)
+end)
